@@ -18,6 +18,6 @@ idra.run do |request|
 end
 ```
 
-You can read the code on github: [soon]
+You can read the code on github: <https://github.com/makevoid/idra/blob/master/lib/idra.rb>
 
 enjoy
