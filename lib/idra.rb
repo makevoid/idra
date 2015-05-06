@@ -1,6 +1,6 @@
 require 'typhoeus'
 
-class Hydro
+class Idra
   def initialize
     @hydra    = Typhoeus::Hydra.new
     @requests = []
@@ -20,13 +20,13 @@ end
 
 # usage
 #
-# hydro = Hydro.new
+# idra = Idra.new
 #
-# hydro.add_request "https://api.github.com/users/i0rek"
-# hydro.add_request "https://api.github.com/users/makevoid"
-# hydro.add_request "https://api.github.com/users/pauldix"
-# hydro.add_request "https://api.github.com/users/dbalatero"
+# idra.add_request "https://api.github.com/users/i0rek"
+# idra.add_request "https://api.github.com/users/makevoid"
+# idra.add_request "https://api.github.com/users/pauldix"
+# idra.add_request "https://api.github.com/users/dbalatero"
 #
-# hydro.run do |request|
+# idra.run do |request|
 #   puts request.response.body
 # end
