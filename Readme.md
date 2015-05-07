@@ -39,3 +39,9 @@ end
 You can read the code on github: <https://github.com/makevoid/idra/blob/master/lib/idra.rb> -- It's just few lines.
 
 enjoy
+
+
+### Changelog
+
+- 0.1.1 - fix #refresh
+- 0.1.0 - first release
