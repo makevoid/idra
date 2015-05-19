@@ -45,7 +45,8 @@ enjoy
 
 - 0.1.1 - fix #refresh
 - 0.1.0 - first release
-- 
+
+
 ### Production-Ready code
 
 This code is used in production in a micro-services architecture at Quill Content (and actually was sponsored by them! :) ) and is licensed under the Unlicense License (you can do whatever you want with the code, I don't care :D)
