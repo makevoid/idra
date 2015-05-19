@@ -27,7 +27,7 @@ end
 or:
 
 ```rb
-idra.refresh # makes the requests again
+idra.refresh # makes the requests again (needed only if you ran the above)
 
 idra.run do |request|
   puts request.name           # => :userX
